@@ -1,0 +1,118 @@
+html, body{
+ margin: 0;
+ font-family: 'open sans',sans-serif;
+} 
+.img{
+    max-width: 100%;
+    height: auto;
+}
+.maindiv{
+    width: 90%;
+    height: 80%;
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0 0 20px #9695e0bb;
+
+}
+.leftdiv{
+    height: 100%;
+    width: 40%;
+}
+.rightmain{
+    width: 60%;
+    height: 80%;
+    margin: 5% auto;
+    padding-top:2% ;
+    border-radius: 5%;
+}
+.lgntext{
+    font-size: 2.5em;
+    font-family: 'passion one',cursive;
+}
+.logintext{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: blue;
+    margin-top: 5%;
+}
+.inputdiv{
+    height: 30%;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+.inp{
+    height: 40px;
+    width: 90%;
+    margin: 5%;
+    background: none;
+    border-width: 0 0 1 0;
+    font-size: 1em;
+    outline: none;
+}
+.inp:hover{
+    border-color: rgb(99, 71, 255);
+    color:  rgb(99, 71, 255);
+}
+.button{
+    width: 80%;
+    margin: auto;
+    margin-top: 7%;
+}
+.btn{
+    height: 40px;
+    width: 90%;
+    margin: 5%;
+    font-size: 1.1em;
+    background-color: rgba(99, 71, 255);
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    outline: none;
+}
+.btn:hover{
+    background-color: white;
+    border-style: solid;
+    border-color:  rgba(99, 71, 255);
+    box-shadow: 0 0 20px  rgba(99, 71, 255);
+    color:  rgba(99, 71, 255);
+}
+.alternatelogins{
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    margin-top: 5%;
+}
+.sociobtns{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.socio{
+    width: 50px;
+    height: 50px;
+    margin-left: 2%;
+    border-radius: 50%;
+    background-color: white;
+    border-style: none;
+    box-shadow: 0px 0px 20px #8d8888bb;
+    animation: .4s ease-in;
+}
+.socio:hover{
+    background-color: rgba(99, 71, 255);
+    box-shadow: 0px 0px 20px rgba(99, 71, 255);
+    color: white;
+    animation: .4s ease-in;
+}
+.rightdiv{
+    background-image: url(./abstract-blue-geometric-shapes-background_1035-17545.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    width: 60%;
+    background-size: cover;
+}
